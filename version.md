@@ -53,4 +53,7 @@ git tag v1.0.0 -am "這是第一個版"
 git push origin v1.0.0
 ```
 
-
+## delete tag from origin
+```
+git push --delete origin v1.0.0
+```
