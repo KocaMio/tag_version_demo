@@ -35,3 +35,22 @@ v2.0.0
 1. [semver.org](https://semver.org/lang/zh-TW/)
 2. [Git基礎-標籤](https://git-scm.com/book/zh-tw/v2/Git-%E5%9F%BA%E7%A4%8E-%E6%A8%99%E7%B1%A4)
 3. [Git 版本控制系統 - 使用標籤為特定版本號做標記](https://awdr74100.github.io/2020-04-28-git-tag/)
+
+# Git tag
+---
+## 顯示所有tag(參數 -n 附帶顯示comment)
+```
+git tag -n
+```
+
+## 在當前commit上一個tag
+```
+git tag v1.0.0 -am "這是第一個版"
+```
+
+## push tag to origin
+```
+git push origin v1.0.0
+```
+
+
